@@ -1,0 +1,80 @@
+html {
+  overflow-x: hidden;
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
+#logo:hover {
+  cursor: pointer;
+}
+
+header {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  background-color: #0000cc;
+  top: 0;
+  height: 50px;
+  width: 89.99em;
+}
+
+header img {
+  margin-top: 0.25em;
+  margin-left: 0.5em;
+  margin-right: 5em;
+}
+
+
+header a {
+  text-decoration: none;
+  color: green;
+  background-color: #0000cc;
+  padding: 0.79em 0.7em;
+  border: 2px solid transparent; /* Add transparent border */
+  transition-property: color, background-color;
+  transition-duration: 0.7s;
+}
+
+header a:hover {
+  background-color: RGB(255, 255, 255);
+}
+
+main {
+  display: grid;
+  grid-template-columns: 20% 80%;
+  gap: 1em;
+  margin-top: 3em;
+}
+
+#sidebar {
+  background-color: lightgray;
+}
+
+#sidebar h2 {
+  text-align: center;
+}
+
+#sidebar a {
+  transition: color 0.2s linear;
+  color: green;
+  margin-left: 0.4em;
+}
+
+#sidebar a:hover {
+  color: white;
+}
+
+#content h1 {
+  text-align: center;
+}
+
+.lightgray-hr {
+  height: 0.1em;
+  background-color: lightgray;
+  border: none;
+}
