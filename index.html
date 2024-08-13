@@ -1,16 +1,32 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>replit</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
+    <title>CodeXplore</title>
+    <link href="./main-styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script src="./main-script.js"></script>
 </head>
-
 <body>
-  Hello world
-  <script src="script.js"></script>
-</body>
+    <script src="./main-script.js"></script>
+    <header>
+        <img src="./images/logo.png" id="logo" height="25" width="120" onclick="home()">
+        <a href="./languages/css/css.html" id="css">CSS</a>
+        <a href="./languages/html/html.html" id="html">HTML</a>
+        <a href="./languages/python/python.html" id="python">PYTHON</a>
+        <a href="./languages/javascript/javascript.html" id="javascript">JAVASCRIPT</a>
+    </header>
+    <main>
+        <h1 id="Learn-Code">Learn Code</h1>
+        <input type="text" id="search-bar" placeholder="Search for any language">
+        <div id="autocomplete-list"></div>
+    </main>
 
+    <footer>
+        <hr>
+        <p>
+            Created by: Big ED
+        </p>
+
+    </footer>
+</body>
 </html>
